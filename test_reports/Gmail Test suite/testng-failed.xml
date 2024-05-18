@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail Test suite]">
+  <test thread-count="5" name="Send Mail TestCase(failed)">
+    <parameter name="email" value="simhadrismd@gmail.com"/>
+    <classes>
+      <class name="testcases.sendmailtest">
+        <methods>
+          <include name="LunchApp"/>
+          <include name="Gmaillogout"/>
+          <include name="GmailLogin"/>
+          <include name="CloseApp"/>
+          <include name="sendmail"/>
+        </methods>
+      </class> <!-- testcases.sendmailtest -->
+    </classes>
+  </test> <!-- Send Mail TestCase(failed) -->
+</suite> <!-- Failed suite [Gmail Test suite] -->
